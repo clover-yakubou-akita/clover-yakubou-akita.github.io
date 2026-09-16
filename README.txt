@@ -1,15 +1,15 @@
-# クローバー薬房 公式サイト（Google・AI検索 最終調整版）
+# クローバー薬房 公式サイト（FAQ・AI検索 内容強化版）
 
-今回の変更は見た目を変えず、検索エンジン・AIが店舗情報を理解しやすくするための内部調整です。
+今回の変更点
+- FAQページを14問に拡充
+- 秋田市での漢方相談、予約、病院のお薬、便秘、冷え・疲れ・眠り・胃腸、
+  女性特有のお悩み、がん治療中のご相談、営業時間、駐車場などを追加・整理
+- 医療機関での治療を妨げない安全な表現に調整
+- FAQPage構造化データを追加し、検索エンジンやAIが質問と回答を理解しやすい形に整理
+- 見た目・ロゴ・Instagram・Google Search Console確認ファイルは前回版を維持
 
-- 各ページに canonical URL を追加
-- 各ページのタイトル・説明文を整理
-- Google等が理解しやすい Pharmacy 構造化データを強化
-- 郵便番号、営業時間、電話、メール、Instagramを構造化データで明示
-- 公式Instagramを sameAs で関連付け
-- OAI-SearchBot のクロール許可を robots.txt で明示
-- sitemap.xml に最終更新日を追加
-- Google Search Console確認ファイルはそのまま保持
+アップロード方法
+ZIPを展開 → GitHubの Add file → Upload files → 中身をすべてアップロード → Commit changes
 
-アップロード方法はこれまでと同じです。
-ZIPを展開し、GitHubで Add file → Upload files → 中身を全てアップロード → Commit changes。
+反映後は faq.html をGoogle Search ConsoleのURL検査から
+「インデックス登録をリクエスト」しておくと更新を伝えやすくなります。
