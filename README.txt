@@ -1,36 +1,9 @@
-# クローバー薬房 公式サイト（GitHub Pages 公開用・修正版）
+# クローバー薬房 公式サイト（スタイリッシュ更新版）
 
-このフォルダの中身をすべて GitHub にアップロードしてください。
-今回は `assets` フォルダを使わず、`style.css` をトップ階層に置く構成にしています。
+アップロード対象の主な追加・変更点
+- style-v2.css を使用
+- index.html（トップページ大幅更新）
+- about.html / access.html 更新
+- kaiben-set.jpg を追加
 
-## アップロードするもの
-- index.html
-- about.html
-- access.html
-- cases.html
-- concerns.html
-- consultation.html
-- faq.html
-- first.html
-- style.css
-- robots.txt
-- sitemap.xml
-- README.txt
-
-## 公開URL
-https://clover-yakubou-akita.github.io/
-
-## 公開前・公開後に確認する項目
-1. 営業時間
-2. 定休日
-3. 駐車場
-4. 店主・スタッフ紹介
-5. 店舗外観・店内・相談スペース写真
-6. ロゴ
-
-
-追加画像ファイル:
-- storefront.jpg
-- consultation-room.jpg
-- message-board.jpg
-- owner-portrait.jpg
+※ 反映後に古い見た目が出る場合は、ブラウザで Ctrl + F5 を押して再読み込みしてください。
