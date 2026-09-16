@@ -27,3 +27,10 @@ https://clover-yakubou-akita.github.io/
 4. 店主・スタッフ紹介
 5. 店舗外観・店内・相談スペース写真
 6. ロゴ
+
+
+追加画像ファイル:
+- storefront.jpg
+- consultation-room.jpg
+- message-board.jpg
+- owner-portrait.jpg

@@ -50,3 +50,20 @@ th{background:#f2f8f3;width:28%}
  nav{display:none}
  .hero{padding-top:46px}
 }
+
+
+img{max-width:100%;height:auto;display:block}
+.hero-photo{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 10px 30px rgba(47,107,70,.08)}
+.hero-photo img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.hero-photo .caption{padding:14px 18px;color:var(--muted);font-size:.95rem}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.gallery .card{padding:0;overflow:hidden}
+.gallery .card img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.gallery .card .pad{padding:16px 18px}
+.profile{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start}
+.profile .portrait{border-radius:18px;border:1px solid var(--line);background:#fff;padding:16px}
+.info-list{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px}
+.info-list dt{font-weight:700;color:var(--green);margin-top:10px}
+.info-list dd{margin:4px 0 10px 0}
+.callout{background:#eef8ef;border:1px solid #cfe0cf;border-radius:18px;padding:18px 20px}
+@media(max-width:800px){.gallery,.profile{grid-template-columns:1fr}.hero-photo img{aspect-ratio:16/10}}
