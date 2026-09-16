@@ -115,3 +115,10 @@ footer{background:linear-gradient(180deg,#526f5d 0%, #445d4f 100%);color:#fff;pa
   .catch-main{font-size:1.48rem}
   .catch-sub{font-size:1.04rem}
 }
+
+.instagram-link{display:inline-flex;align-items:center;gap:7px;font-weight:700;color:#725d68}
+.instagram-link:hover{color:#4c6e5a}
+.instagram-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#fff7f8;color:#7a5f69;border:1px solid #ead9de;padding:13px 20px;border-radius:999px;font-weight:700;box-shadow:var(--shadow)}
+.instagram-btn:hover{transform:translateY(-2px)}
+.header-instagram{font-size:.88rem;white-space:nowrap}
+@media(max-width:800px){.header-instagram{display:none}}
