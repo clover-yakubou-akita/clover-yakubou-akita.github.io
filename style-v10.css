@@ -127,3 +127,8 @@ footer{background:linear-gradient(180deg,#526f5d 0%, #445d4f 100%);color:#fff;pa
 .footer-instagram .instagram-icon{width:21px;height:21px}
 .footer-instagram:hover{opacity:.88}
 @media(max-width:800px){.instagram-keyitem{grid-column:1}.instagram-entry{font-size:.93rem}}
+
+/* Linked concern cards */
+.concern-card-link{display:block;color:inherit;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;position:relative}
+.concern-card-link:hover{transform:translateY(-4px);border-color:#cfdcca;box-shadow:0 20px 42px rgba(68,92,75,.13)}
+.concern-card-link::after{content:"詳しく見る →";display:block;margin-top:12px;color:#355443;font-size:.82rem;font-weight:800;letter-spacing:.02em}
