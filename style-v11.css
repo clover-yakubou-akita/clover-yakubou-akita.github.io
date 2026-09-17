@@ -23,6 +23,9 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,252,248,.94);backdro
 .brand{display:flex;flex-direction:column;align-items:flex-start;gap:7px;color:var(--green-deep);letter-spacing:.04em;min-width:340px}
 .brand img{height:74px;width:auto;display:block;filter:contrast(1.04)}
 .brand span{display:inline-block;font-size:1rem;font-weight:800;color:#4f6d5c;margin-top:0;line-height:1.2;letter-spacing:.08em;padding:3px 2px 0}
+.brand-copy{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.brand-main{display:inline-block}
+.brand-heritage{display:inline-flex;align-items:center;justify-content:center;padding:5px 11px;border-radius:999px;border:1px solid #d8c7a0;background:linear-gradient(180deg,#fffdf7 0%,#f7efdb 100%);color:#5e6658;font-size:.75rem;font-weight:800;letter-spacing:.08em;box-shadow:0 6px 16px rgba(105,91,54,.08)}
 nav{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end}
 nav a{font-size:.9rem;color:#6a726d} nav a:hover{color:var(--green-deep)}
 main{overflow:hidden}
@@ -129,18 +132,7 @@ footer{background:linear-gradient(180deg,#526f5d 0%, #445d4f 100%);color:#fff;pa
 @media(max-width:800px){.instagram-keyitem{grid-column:1}.instagram-entry{font-size:.93rem}}
 
 
-/* v11: heritage badge + official LINE integration */
-.heritage-badge{
-  display:inline-flex;align-items:center;gap:9px;
-  margin:0 0 16px;padding:8px 15px 8px 12px;
-  border-radius:999px;border:1px solid #ded1af;
-  background:linear-gradient(180deg,#fffdf7 0%,#f8f1df 100%);
-  color:#5f6656;font-size:.9rem;font-weight:700;letter-spacing:.045em;
-  box-shadow:0 8px 20px rgba(105,91,54,.07)
-}
-.heritage-badge strong{color:var(--green-deep);font-size:1.03rem;letter-spacing:.06em}
-.heritage-clover{font-size:1.08rem;line-height:1}
-
+/* v11: official LINE integration + header heritage badge */
 .line-promo{
   margin-top:22px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;
   padding:25px 30px;border:1px solid #cfe9d7;border-radius:28px;
@@ -172,8 +164,9 @@ footer{background:linear-gradient(180deg,#526f5d 0%, #445d4f 100%);color:#fff;pa
 .footer-line:hover{opacity:.88}
 
 @media(max-width:800px){
-  .heritage-badge{margin-bottom:14px;font-size:.82rem;padding:7px 12px 7px 10px}
-  .heritage-badge strong{font-size:.94rem}
+  .brand-copy{display:flex;flex-direction:column;align-items:flex-start;gap:5px}
+  .brand-main{font-size:.82rem;line-height:1.15}
+  .brand-heritage{font-size:.68rem;padding:4px 9px;letter-spacing:.06em}
   .line-promo{grid-template-columns:1fr;padding:22px 20px;gap:18px}
   .line-promo-title strong{font-size:1.16rem}
   .line-qr{justify-content:flex-start}
