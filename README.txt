@@ -13,3 +13,11 @@ ZIPを展開 → GitHubの Add file → Upload files → 中身をすべてア�
 
 反映後は faq.html をGoogle Search ConsoleのURL検査から
 「インデックス登録をリクエスト」しておくと更新を伝えやすくなります。
+
+
+【2026-09-17 更新】
+トップページに以下を追加しました。
+・「🍀 秋田で創業50年余」信頼バッジ
+・ご相談窓口下の公式LINE案内（友だち追加URL・QRコード）
+・フッターのInstagram＋公式LINE導線
+・トップページ用CSSを style-v11.css に更新
