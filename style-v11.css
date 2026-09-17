@@ -93,7 +93,7 @@ footer{background:linear-gradient(180deg,#526f5d 0%, #445d4f 100%);color:#fff;pa
 .catch-main{display:block;font-size:clamp(2.1rem,4.2vw,3.35rem);line-height:1.42}
 .catch-main span{display:block}
 .catch-sub{display:block;margin-top:14px;font-size:clamp(1.35rem,2.6vw,2.05rem);line-height:1.5;color:#6a7e70;font-weight:500}
-.concern-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+.concern-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .concern-grid .card{padding:24px 20px}
 .concern-grid .card h3{font-size:1.08rem}
 .cancer-note{font-size:.86rem;color:#7a827c;margin-top:8px}
