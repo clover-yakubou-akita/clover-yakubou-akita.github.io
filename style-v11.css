@@ -220,3 +220,201 @@ footer{background:linear-gradient(180deg,#526f5d 0%, #445d4f 100%);color:#fff;pa
   .journey-heading{font-size:1.5rem!important}
   .home-consultation-title h2{font-size:1.36rem}
 }
+
+
+/* v14: self-check emphasis + reservation form */
+.journey-card-accent{
+  background:linear-gradient(180deg,#fff4dd 0%,#fffaf1 58%,#f5fbf6 100%);
+  border:2px solid #e2b86d;
+  box-shadow:0 16px 38px rgba(168,126,55,.14);
+}
+.journey-card-accent:hover{
+  border-color:#cf9c43;
+  box-shadow:0 20px 44px rgba(168,126,55,.20);
+}
+.journey-card-accent .journey-no{
+  background:#c88c35;
+  box-shadow:0 7px 18px rgba(200,140,53,.22);
+}
+.journey-card-accent .journey-kicker{
+  color:#a36d21;
+}
+.journey-card-accent h3{
+  font-size:1.18rem;
+}
+.journey-check-cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:18px;
+  padding:9px 14px;
+  border-radius:999px;
+  background:var(--green-deep);
+  color:#fff;
+  font-size:.86rem;
+  font-weight:800;
+  box-shadow:0 8px 18px rgba(53,84,67,.14);
+}
+
+.reservation-note{
+  margin:12px 0 0;
+  color:var(--muted);
+  font-size:.86rem;
+  line-height:1.7;
+}
+.reservation-wrap{
+  max-width:920px;
+}
+.reservation-intro{
+  margin-bottom:24px;
+}
+.reservation-intro h2{
+  margin:0 0 10px;
+  color:var(--green-deep);
+}
+.reservation-intro p{
+  margin:0;
+  color:#68726b;
+}
+.reservation-status{
+  margin-top:18px;
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  padding:14px 16px;
+  border-radius:16px;
+  background:#fff8e9;
+  border:1px solid #ead7ad;
+  color:#6f6556;
+}
+.reservation-status strong{
+  white-space:nowrap;
+  color:#8a6b2e;
+}
+.reservation-form{
+  background:#fff;
+  border:1px solid #e4ddd2;
+  border-radius:28px;
+  padding:30px;
+  box-shadow:var(--shadow);
+}
+.form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+.form-field{
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+}
+.form-field-full{
+  grid-column:1 / -1;
+}
+.form-field>span{
+  color:#4f5d54;
+  font-weight:800;
+  font-size:.92rem;
+}
+.form-field b{
+  display:inline-block;
+  margin-left:5px;
+  padding:2px 6px;
+  border-radius:999px;
+  background:#f3e5df;
+  color:#8f5e55;
+  font-size:.68rem;
+}
+.form-field input,
+.form-field select,
+.form-field textarea{
+  width:100%;
+  font:inherit;
+  color:var(--text);
+  background:#fffdfa;
+  border:1px solid #dcd5ca;
+  border-radius:14px;
+  padding:12px 14px;
+  outline:none;
+}
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus{
+  border-color:#8fab98;
+  box-shadow:0 0 0 3px rgba(76,110,90,.09);
+}
+.form-field textarea{
+  resize:vertical;
+  min-height:140px;
+}
+.form-consent{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  margin-top:20px;
+  color:#68726b;
+  font-size:.9rem;
+  cursor:pointer;
+}
+.form-consent input{
+  width:18px;
+  height:18px;
+  margin-top:3px;
+  accent-color:var(--green-deep);
+}
+.form-error{
+  min-height:1.5em;
+  margin-top:8px;
+  color:#9b544d;
+  font-weight:700;
+  font-size:.9rem;
+}
+.reservation-submit-row{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:12px;
+}
+.reservation-submit{
+  font:inherit;
+  cursor:pointer;
+}
+.reservation-help{
+  margin-top:12px;
+}
+
+@media(max-width:700px){
+  .journey-card-accent{
+    border-width:2px;
+  }
+  .journey-check-cta{
+    width:100%;
+    margin-top:14px;
+    padding:11px 14px;
+  }
+  .consultation-reserve-actions{
+    flex-direction:column;
+  }
+  .consultation-reserve-actions .btn{
+    width:100%;
+  }
+  .reservation-form{
+    padding:22px 18px;
+  }
+  .form-grid{
+    grid-template-columns:1fr;
+  }
+  .form-field-full{
+    grid-column:auto;
+  }
+  .reservation-status{
+    flex-direction:column;
+    gap:4px;
+  }
+  .reservation-submit-row{
+    flex-direction:column;
+  }
+  .reservation-submit-row .btn{
+    width:100%;
+  }
+}
