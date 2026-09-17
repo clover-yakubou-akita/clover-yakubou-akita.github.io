@@ -418,3 +418,48 @@ footer{background:linear-gradient(180deg,#526f5d 0%, #445d4f 100%);color:#fff;pa
     width:100%;
   }
 }
+
+/* v15: approved Pattern 1 — herbal medicine + bright plaster background
+   Background-only update. Existing layout/content/components are unchanged. */
+body{
+  background-color:#fbf6ed;
+  background-image:
+    linear-gradient(rgba(255,252,247,.18),rgba(255,252,247,.18)),
+    url("background-herbal-plaster.jpg");
+  background-size:cover;
+  background-position:center top;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+/* Keep the existing section color character while letting the new background show softly through. */
+.hero{
+  background:linear-gradient(180deg,rgba(249,245,237,.88) 0%,rgba(255,253,249,.86) 45%,rgba(247,251,248,.86) 100%);
+}
+.feature-band{
+  background:linear-gradient(180deg,rgba(244,248,245,.88) 0%,rgba(251,250,246,.87) 100%);
+}
+.alt-warm{
+  background:linear-gradient(180deg,rgba(255,253,249,.89) 0%,rgba(249,246,239,.87) 100%);
+}
+.alt-soft{
+  background:linear-gradient(180deg,rgba(248,251,248,.88) 0%,rgba(253,252,248,.87) 100%);
+}
+.alt-rose{
+  background:linear-gradient(180deg,rgba(253,248,247,.88) 0%,rgba(251,250,246,.87) 100%);
+}
+.pagehead{
+  background:linear-gradient(180deg,rgba(248,244,237,.91) 0%,rgba(251,250,246,.89) 100%);
+}
+
+@media(max-width:800px){
+  body{
+    background-image:
+      linear-gradient(rgba(255,252,247,.24),rgba(255,252,247,.24)),
+      url("background-herbal-plaster-mobile.jpg");
+    background-size:100% auto;
+    background-position:center top;
+    background-repeat:repeat-y;
+    background-attachment:scroll;
+  }
+}
