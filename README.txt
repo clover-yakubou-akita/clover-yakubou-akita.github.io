@@ -21,3 +21,7 @@ ZIPを展開 → GitHubの Add file → Upload files → 中身をすべてア�
 ・ご相談窓口下の公式LINE案内（友だち追加URL・QRコード）
 ・フッターのInstagram＋公式LINE導線
 ・トップページ用CSSを style-v11.css に更新
+
+【2026-09-17 追補】
+・storefront.jpg を漢方相談イメージ写真へ差し替え
+・トップページ、当薬房について、店舗・アクセス内の alt / 見出しを一部調整
