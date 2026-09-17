@@ -131,4 +131,8 @@ footer{background:linear-gradient(180deg,#526f5d 0%, #445d4f 100%);color:#fff;pa
 /* Linked concern cards */
 .concern-card-link{display:block;color:inherit;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;position:relative}
 .concern-card-link:hover{transform:translateY(-4px);border-color:#cfdcca;box-shadow:0 20px 42px rgba(68,92,75,.13)}
-.concern-card-link::after{content:"詳しく見る →";display:block;margin-top:12px;color:#355443;font-size:.82rem;font-weight:800;letter-spacing:.02em}
+.concern-card-link::after{display:none!important;content:none!important}
+.concern-card-cta{display:inline-flex;align-items:center;justify-content:center;gap:6px;margin-top:12px;padding:8px 14px;border:1px solid rgba(79,119,90,.34);border-radius:999px;background:rgba(255,255,255,.62);color:var(--green-deep);font-size:.84rem;font-weight:800;letter-spacing:.02em;line-height:1.35;box-shadow:0 4px 12px rgba(68,92,75,.05)}
+.concern-card-link:hover .concern-card-cta{background:rgba(79,119,90,.09);border-color:rgba(79,119,90,.48)}
+
+.concern-card-link::after{display:none!important;content:none!important}
