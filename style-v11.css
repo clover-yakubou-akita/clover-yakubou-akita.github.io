@@ -646,3 +646,51 @@ body{
   .sleep-sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:70;display:grid;grid-template-columns:1fr 1fr;background:#fff;box-shadow:0 -10px 28px rgba(49,67,55,.14);padding:9px 10px calc(9px + env(safe-area-inset-bottom))}.sleep-sticky-cta a{display:flex;align-items:center;justify-content:center;padding:11px 8px;font-size:.87rem;font-weight:900;color:#3f614e}.sleep-sticky-cta .sticky-reserve{background:#49685b;color:#fff;border-radius:999px}
   .sleep-stress-flow{justify-content:center}.sleep-stress-flow b{display:none}
 }
+
+
+/* v23: constitution page mobile overlap visual refinement */
+@media(max-width:700px){
+  .overlap-panel{
+    gap:22px;
+  }
+  .overlap-visual{
+    min-height:290px;
+    max-width:320px;
+    width:100%;
+    margin:8px auto 0;
+  }
+  .overlap-visual span,
+  .overlap-visual strong{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  .overlap-visual span{
+    width:124px;
+    height:124px;
+    font-size:1rem;
+    line-height:1.25;
+  }
+  .overlap-visual span:nth-child(1){
+    left:6px;
+    top:4px;
+  }
+  .overlap-visual span:nth-child(2){
+    right:6px;
+    top:14px;
+  }
+  .overlap-visual span:nth-child(3){
+    left:50%;
+    bottom:2px;
+    transform:translateX(-50%);
+  }
+  .overlap-visual strong{
+    width:88px;
+    height:88px;
+    left:50%;
+    top:52%;
+    transform:translate(-50%,-50%);
+    font-size:1.02rem;
+  }
+}
