@@ -71,6 +71,26 @@
 .eye-cta .button-row{justify-content:flex-end}.eye-cta .btn{background:#fff;color:#365345}.eye-cta .btn.secondary{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.55)}
 @media(max-width:850px){.eye-hero-grid,.eye-grid3,.eye-map,.eye-flow,.eye-cta{grid-template-columns:1fr}.eye-visual{min-height:285px}.eye-mark{transform:rotate(45deg) scale(.78)}.eye-checks{grid-template-columns:1fr}.eye-section{padding:54px 0}.eye-cta .button-row{justify-content:flex-start}}
 @media(max-width:520px){.eye-title{font-size:2.25rem;line-height:1.38}.eye-hero{padding-top:42px}.eye-visual{min-height:240px;padding:18px}.eye-mark{transform:rotate(45deg) scale(.62)}.eye-card{padding:20px}}
+
+.lp-medical-mini{
+  max-width:920px;
+  margin:18px auto 28px;
+  background:#fbfaf7;
+  border:1px solid #e8e2d6;
+  border-radius:14px;
+  padding:9px 13px;
+  color:#7b7c76;
+  font-size:.78rem;
+  line-height:1.65;
+}
+.lp-medical-mini strong{
+  color:#686a65;
+  font-weight:700;
+}
+@media(max-width:620px){
+  .lp-medical-mini{font-size:.76rem;padding:9px 11px;margin:14px auto 22px}
+}
+
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "緑内障・白内障・加齢黄斑変性と漢方相談｜秋田市 クローバー薬房", "url": "https://clover-yakubou-akita.github.io/eye.html", "description": "眼科での診断・治療を大切にしながら、東洋医学の視点から目だけでなく全身の状態を考えるクローバー薬房の目のお悩み相談ページです。", "inLanguage": "ja", "isPartOf": {"@id": "https://clover-yakubou-akita.github.io/#website"}, "about": ["目のお悩み", "緑内障", "白内障", "加齢黄斑変性", "漢方相談", "東洋医学"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "眼科に通院中でも相談できますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。眼科での診断・治療を続けながらご相談いただけます。点眼薬・内服薬・注射・手術などの治療内容が分かるものをご持参ください。"}}, {"@type": "Question", "name": "漢方を飲めば点眼薬をやめられますか？", "acceptedAnswer": {"@type": "Answer", "text": "自己判断で点眼薬や眼科治療を中止しないでください。クローバー薬房の漢方相談は、眼科治療に代わるものではなく、体調や生活全体を東洋医学の視点から考えるためのものです。"}}, {"@type": "Question", "name": "相談時に持っていくものはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "お薬手帳、点眼薬や内服薬の名称、眼科での検査結果（眼圧・視野・OCTなど）が分かるものがあればお持ちください。普段の食事・睡眠・便通・冷え・疲れなども伺います。"}}, {"@type": "Question", "name": "緑内障・白内障・加齢黄斑変性以外でも相談できますか？", "acceptedAnswer": {"@type": "Answer", "text": "目の疲れ、乾燥感、かすみなどについてもお話を伺います。ただし、新しく出た症状や急な変化がある場合は、まず眼科で原因を確認することをおすすめします。"}}]}</script>
@@ -82,7 +102,6 @@
     <nav>
       <a href="first.html">初めての方へ</a>
       <a href="consultation.html">漢方相談</a>
-      <a href="concerns.html">よくあるご相談</a>
       <a href="kampo-thinking.html">漢方を知る</a>
       <a href="cases.html">相談事例</a>
       <a href="faq.html">よくある質問</a>
@@ -119,7 +138,6 @@
       <article class="eye-card eye-disease"><span class="tag">白内障</span><h3>水晶体の濁りによる見えにくさ</h3><p>白内障は目のレンズにあたる水晶体が濁る病気です。かすみやまぶしさなどが生じ、生活への影響が大きくなった場合には手術が主な治療になります。</p></article>
       <article class="eye-card eye-disease"><span class="tag">加齢黄斑変性</span><h3>中心の見え方を担う「黄斑」の病気</h3><p>黄斑が傷み、ゆがみや中心部の見えにくさが起こる病気です。新生血管型では眼内注射などの治療が行われます。定期的な眼科受診と経過観察が重要です。</p></article>
     </div>
-    <div class="eye-notice"><strong>大切なお知らせ：</strong> 点眼薬・内服薬・注射・手術など、眼科で指示された治療を自己判断で中止・変更しないでください。漢方薬・自然薬をご提案する際は、現在の治療内容や服用薬との併用を確認します。</div>
   </div>
 </section>
 
@@ -182,22 +200,6 @@
   </div>
 </section>
 
-<section class="eye-section">
-  <div class="container">
-    <div class="eye-eyebrow">IMPORTANT</div>
-    <h2 class="eye-h2">こんな変化がある時は、漢方相談より先に眼科へ。</h2>
-    <div class="eye-alert">
-      <h3>急な見え方の変化は、早めの受診が必要なことがあります。</h3>
-      <ul>
-        <li>急に視力が落ちた、視野の一部が急に欠けた</li>
-        <li>カーテンがかかったように見える</li>
-        <li>飛蚊症が急に増えた、光がピカピカ・稲妻のように見える</li>
-        <li>強い目の痛みとともに、頭痛・吐き気などがある</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
 <section class="eye-section warm">
   <div class="container eye-faq">
     <div class="eye-eyebrow">FAQ</div>
@@ -223,6 +225,11 @@
     <h2 class="eye-h2" style="font-size:1.45rem;">参考にした医学情報</h2>
     <p>病気の説明・受診に関する記載は、日本眼科学会・日本眼科医会の一般向け情報を参考にしています。東洋医学の部分は、伝統的な考え方として区別して記載しています。</p>
     <p><a href="https://www.nichigan.or.jp/public/disease/name.html?pdid=35" target="_blank" rel="noopener">日本眼科学会「緑内障」</a> ／ <a href="https://www.nichigan.or.jp/public/disease/name.html?pdid=48" target="_blank" rel="noopener">日本眼科学会「白内障」</a> ／ <a href="https://www.nichigan.or.jp/public/disease/name.html?pdid=52" target="_blank" rel="noopener">日本眼科学会「加齢黄斑変性」</a></p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="lp-medical-mini"><strong>※念のため、医療機関へのご相談をおすすめする場合</strong><br>急な視力低下、視野の一部が欠ける、カーテンがかかったように見える、飛蚊症が急に増える、強い目の痛みなどがある場合は、早めに眼科へご相談ください。</div>
   </div>
 </section>
 </main>
