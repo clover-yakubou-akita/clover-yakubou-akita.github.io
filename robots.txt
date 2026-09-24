@@ -1,7 +1,7 @@
-User-agent: *
+User-agent: OAI-SearchBot
 Allow: /
 
-User-agent: OAI-SearchBot
+User-agent: *
 Allow: /
 
 Sitemap: https://clover-yakubou-akita.github.io/sitemap.xml
