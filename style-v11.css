@@ -850,3 +850,7 @@ header.menu-open .mobile-nav-icon i:nth-child(3){
   font-size:.84rem;
   line-height:1.7;
 }
+
+
+/* 2026-09-26: top hero consultation image */
+.hero .flyer-side img{aspect-ratio:16/9;object-fit:cover;object-position:center center}
