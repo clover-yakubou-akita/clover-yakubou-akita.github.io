@@ -13,15 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
   button.setAttribute('aria-controls', nav.id);
   button.setAttribute('aria-expanded', 'false');
   button.setAttribute('aria-label', 'メニューを開く');
-  button.innerHTML = '<span class="mobile-nav-icon" aria-hidden="true">☰</span><span>メニュー</span>';
+  button.innerHTML = '<span class="mobile-nav-icon" aria-hidden="true"><i></i><i></i><i></i></span>';
   wrap.appendChild(button);
 
   function setOpen(open) {
     header.classList.toggle('menu-open', open);
     button.setAttribute('aria-expanded', open ? 'true' : 'false');
     button.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
-    var icon = button.querySelector('.mobile-nav-icon');
-    if (icon) icon.textContent = open ? '×' : '☰';
   }
 
   button.addEventListener('click', function () {
