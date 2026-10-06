@@ -127,6 +127,22 @@
   .lp-medical-mini{font-size:.76rem;padding:9px 11px;margin:14px auto 22px}
 }
 
+
+/* Newspaper / mini-community-paper legacy hook */
+.cp-impact{padding:42px 0;background:#fff}
+.cp-impact-card{display:grid;grid-template-columns:.82fr 1.18fr;gap:26px;align-items:center;background:linear-gradient(135deg,#fffaf7,#f4f8f4);border:1px solid #e6e9e4;border-radius:28px;padding:24px;box-shadow:0 14px 34px rgba(62,84,69,.06)}
+.cp-impact-crop{height:168px;overflow:hidden;border-radius:20px;border:1px solid #e8e1dc;background:#fff}
+.cp-impact-crop img{display:block;width:100%;height:auto;transform:translateY(-30px)}
+.cp-impact-copy h2{font-family:"Yu Mincho","Hiragino Mincho ProN","MS PMincho",serif;color:var(--cp-deep);font-size:clamp(1.55rem,2.8vw,2.2rem);line-height:1.45;font-weight:500;margin:8px 0 10px}
+.cp-impact-copy p{color:#647068;margin:.55em 0}
+.cp-impact-quote{display:inline-block;font-size:1.04rem;font-weight:800;color:#9a585d;background:#fff;border:1px solid #eadbd7;border-radius:999px;padding:7px 13px}
+.cp-impact-note{font-size:.86rem;color:#7a817c}
+
+@media(max-width:720px){
+  .cp-impact-card{grid-template-columns:1fr;padding:18px}
+  .cp-impact-crop{height:150px}
+  .cp-impact-crop img{transform:translateY(-24px)}
+}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"便秘・お通じのお悩みと漢方相談｜秋田市 クローバー薬房","url":"https://clover-yakubou-akita.github.io/constipation.html","description":"便の硬さ、いきみ、残便感、食事、生活、冷え、疲れ、ストレス、体質まで伺い、必要に応じて漢方薬・自然薬と養生をご提案するクローバー薬房の便秘相談ページです。","inLanguage":"ja","isPartOf":{"@id":"https://clover-yakubou-akita.github.io/#website"},"about":[{"@type":"Thing","name":"便秘"},{"@type":"Thing","name":"お通じ"},{"@type":"Thing","name":"漢方相談"},{"@type":"Thing","name":"東洋医学"},{"@type":"Place","name":"秋田市"}],"dateModified":"2026-10-06","publisher":{"@id":"https://clover-yakubou-akita.github.io/#pharmacy"}}</script>
 <script src="nav.js" defer></script>
@@ -187,7 +203,25 @@
   </div>
 </section>
 
-<section class="cp-section">
+<section class="cp-impact" aria-labelledby="legacy-hook-title">
+  <div class="container">
+    <div class="cp-impact-card">
+      <div class="cp-impact-crop" aria-label="これまで新聞やミニコミ誌で使用してきた『ウソでしょ〜！こんなに出るの？』のキャッチ部分">
+        <img src="kaiben-set.jpg" alt="ウソでしょ〜！こんなに出るの？ クローバー薬房で長く使ってきた便秘相談広告のキャッチ部分">
+      </div>
+      <div class="cp-impact-copy">
+        <span class="cp-impact-quote">「ウソでしょ〜！」から始まる便秘相談</span>
+        <h2 id="legacy-hook-title">目を止めてもらう言葉は入口。大切なのは、その人の便秘をきちんと見ること。</h2>
+        <p>このキャッチは、これまでミニコミ誌や新聞でご覧になった方から多くのお問い合わせをいただいてきた、クローバー薬房の便秘相談の印象的なメッセージです。</p>
+        <p>便秘は「出た・出ない」だけではありません。硬さ、いきみ、残便感、お腹の張り、食事や生活リズム、冷えや疲れなども含めて、その方の今の状態を一緒に整理します。</p>
+        <p class="cp-impact-note">※上の画像は、これまで使用してきた広告のキャッチ部分を活用しています。便秘の状態や合う方法は一人ひとり異なります。</p>
+        <div class="button-row"><a class="btn secondary" href="#constipation-check">便秘のチェック項目を見る</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cp-section" id="constipation-check">
   <div class="container">
     <div class="cp-center">
       <div class="cp-eyebrow">CHECK</div>
