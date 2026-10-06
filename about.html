@@ -130,20 +130,80 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Pharmacy",
-  "name": "クローバー薬房",
-  "url": "https://clover-yakubou-akita.github.io/",
-  "description": "秋田市中通、秋田駅からすぐの漢方相談薬局。株式会社湯澤屋として昭和26年から歩みを重ね、薬局として50年余。漢方薬・自然薬と養生を通して健康を支えています。",
-  "address": {
-    "@type": "PostalAddress",
-    "postalCode": "010-0001",
-    "streetAddress": "中通4丁目17-31",
-    "addressLocality": "秋田市",
-    "addressRegion": "秋田県",
-    "addressCountry": "JP"
-  },
-  "telephone": "+81-18-833-3211",
-  "sameAs": ["https://www.instagram.com/cloveryakubou/"]
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://clover-yakubou-akita.github.io/about.html#webpage",
+      "url": "https://clover-yakubou-akita.github.io/about.html",
+      "name": "クローバー薬房について｜昭和26年から秋田とともに・薬局として50年余",
+      "description": "秋田市中通・秋田駅すぐの漢方相談薬局クローバー薬房。運営する株式会社湯澤屋は昭和26年から秋田で歩みを重ね、薬局として50年余。長く地域に寄り添ってきた歴史と想いをご紹介します。",
+      "inLanguage": "ja",
+      "dateModified": "2026-10-06",
+      "isPartOf": {
+        "@id": "https://clover-yakubou-akita.github.io/#website"
+      },
+      "publisher": {
+        "@id": "https://clover-yakubou-akita.github.io/#pharmacy"
+      },
+      "about": [
+        {
+          "@id": "https://clover-yakubou-akita.github.io/#company"
+        },
+        {
+          "@id": "https://clover-yakubou-akita.github.io/#pharmacy"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://clover-yakubou-akita.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "当薬房について",
+          "item": "https://clover-yakubou-akita.github.io/about.html"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://clover-yakubou-akita.github.io/#company",
+      "name": "株式会社湯澤屋",
+      "alternateName": "湯澤屋",
+      "url": "https://clover-yakubou-akita.github.io/about.html",
+      "foundingDate": "1951",
+      "description": "クローバー薬房を営む株式会社湯澤屋。昭和26年、秋田県湯沢市にルーツを持つ初代が『ゆざわや商店』として民芸品店を開いたことから歩みが始まりました。"
+    },
+    {
+      "@type": "Pharmacy",
+      "@id": "https://clover-yakubou-akita.github.io/#pharmacy",
+      "name": "クローバー薬房",
+      "url": "https://clover-yakubou-akita.github.io/",
+      "description": "秋田市中通、秋田駅からすぐの漢方相談薬局。薬局として50年余。漢方薬・自然薬と養生を通して健康を支えています。",
+      "parentOrganization": {
+        "@id": "https://clover-yakubou-akita.github.io/#company"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "010-0001",
+        "streetAddress": "中通4丁目17-31",
+        "addressLocality": "秋田市",
+        "addressRegion": "秋田県",
+        "addressCountry": "JP"
+      },
+      "telephone": "+81-18-833-3211",
+      "sameAs": [
+        "https://www.instagram.com/cloveryakubou/",
+        "https://lin.ee/zB6z09g"
+      ]
+    }
+  ]
 }
 </script>
 </body>
